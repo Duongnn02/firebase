@@ -2502,7 +2502,7 @@
                             });
                             console.log(1213);
                         } else {
-                            var keyID = Math.floor(Math.random() * 9999);
+                            var keyID = Math.floor(Math.random() * 9999999999);
                             localStorage.setItem('key', keyID);
                             db.ref('ListUser/' + keyID).set(dataStore);
                         }
